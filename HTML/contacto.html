@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+    <title>Pagina de Contacto</title>
+    <link rel="stylesheet"
+          href="../CSS/contacto.css">
+</head>
+ 
+<body>
+    
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="valores.html">Valores</a>
+        <a href="skills.html">Skills</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+
+    <div class="main">
+        <h1>Contacto</h1>
+        <form action="">
+            <label for="first"
+                >Nombre:</label
+            >
+            <input
+                type="text"
+                id="first"
+                name="first"
+                placeholder="Ingresa tu nombre" 
+                pattern="^[a-zA-Z0-9]+$"
+                title="El nombre de solo puede contener letras"
+                required
+            />
+
+            <label for="last">Apellido:</label>
+            <input
+                type="text"
+                id="last"
+                name="last"
+                placeholder="Ingresa tu apellido" 
+                pattern="^[a-zA-Z0-9]+$"
+                title="El apellido de solo puede contener letras"
+                required
+            />
+
+
+            <label for="last">Email:</label>
+            <input
+                type="email"
+                id="last"
+                name="last"
+                placeholder="Ingresa tu Email" 
+                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                title="Ingresa un correo electronico valido"
+                required
+            />
+
+            <label for="last">Descripcion:</label>
+            <input
+                type="text"
+                id="last"
+                name="last"
+                placeholder="Especifique los servicios que desea" 
+                pattern="^[a-zA-Z0-9]+$"
+                title="Descripcion"
+                required
+            />
+            
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
