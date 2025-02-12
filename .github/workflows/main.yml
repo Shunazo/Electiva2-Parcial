@@ -24,4 +24,4 @@ jobs:
         echo "$SURGE_TOKEN" | surge login --token
 
         # Deploy to Surge
-        surge --project ./ --domain estudianteelectiva2.surge.sh --token "$SURGE_TOKEN"
+        surge --project ./ --domain AbelRestituyo.surge.sh --token "$SURGE_TOKEN"
